@@ -127,7 +127,8 @@ html,body {
   body{ 
     padding-top:80px;
     background-color: #F5f5f5;
-    font-family:'poppins black';
+    font-family:'poppins';
+    font-weight:700px;
   }
 
   .Logo {
@@ -191,7 +192,7 @@ html,body {
   }
 
   .left-colour h2 {
-    font-family: "poppins light","Times New Roman";
+    font-family: "poppins","Times New Roman";
     font-weight: 1000;
     font-size: 65px;
     position : relative;

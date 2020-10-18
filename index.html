@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- charset is for  all the characters that will be in the website
+/* you should only have 1 h1 tab per page, h1 should describe what the page is about, whilst h2 tabs are actual titles>
+ CSS stands for Cascading Style SHsets
+For style in individual lines is for individual changes-->
+<!--By having a space between classes, you can utilize 2 classes at the same time (e.g h2 class = "index h2" would utilize index and h2 class)-->
+<!--You can use ids to linking text to parts of the page or hyperlink(but you need javascript for that)-->
+<!--Utilize target = '_blank' for external links to use another tab-->
+<!--By having an id related to a section in the code, you can hyperreference the id in another section and by clicking it it will go down to the ided section-->
+<!--ul stands for unordered list, li refers to list items-->
+<!--for containers, use nav tag instead of div as div does not really identify whats inside of it-->
+
+<html>
+  <title>Evan Wong</title>
+  <head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="dist/style.css">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/> 
+</head>
+<body>
+<!--nav bar [this will probably have links to github, email, etc.]-->
+  <nav data-aos = "fade-down"> 
+    <a href="index.html" class = "Logo">&lt;EW&gt;</a>
+      <ul>
+        <li> <a href = "#aboutme-marker">About Me</a> </li>
+        <li> <a href="#project-marker">Projects</a> </li>
+        <li> <a href = "dist/Evan W Resume V12.pdf" target = "_blank">Resume</a> </li>
+      </ul>
+  </nav>
+<!--Beginning of article/page-->
+    <div data-aos ="fade-right" data-aos-duration = "1200">
+      <div class = "left-colour">
+        <h2>EVAN WONG</h2>
+      </div>
+    </div>
+    <div data-aos="fade-right" data-aos-duration = "3000">
+      <div class = "right">
+        <span class = "txt-type" data-wait= "2000" data-words = '["Cypher Main","Systems Design Engineer","Minecraft Gamer"]'>  </span>
+        <h4>
+          Looking for software development opportunities <br> for Winter 2021
+        </h4>
+        <div class = "icons">
+          <!--Will put linkedin and email icon-->
+
+        </div>
+      </div>
+    </div>
+    <div data-aos= "fade-up">
+
+        <div class = "aboutme-section">
+            <img src="/assets/images/swimming.png" class = 'swimmingpng'>
+            <div id = "aboutme-marker"></div>
+
+          <div class = "aboutme-wrapper">  
+
+            <div class = "aboutme-text">
+              <h2>Hi!</h2k>
+              <h3 >
+                I'm Evan, a Systems Design Engineering Student at <br>the University of Waterloo. Through competing in <br> athletics throughout my life, I've developed a <br>goal-oriented mindset in the challenges I approach.
+              <br>
+              <br>
+              <h3>
+                Just recently I've picked up web development and I <br>find it very interesting. Although I'm inexperienced, <br>I'm always looking for opportunities to learn and grow. 
+                </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--I tried to make it work with bootstrap, but an annoying as bug came up, I need to look into this later-->
+      <div class = "project-section">
+        <div id = "project-marker"></div>
+
+        <h2>What I've Worked On</h2>
+
+        <div class = "card-deck"> 
+            <img class = "card-img-top" src="/assets/images/JungGG.png" style = "width:400px;">
+            <div class="card-body">
+              <h4 class="card-title">Developing Front End Componenets for Jung.GG, a website that utilizes <br> API of 
+                League of Legends to create Jungle Paths to assist players in game. 
+                <br> 
+                <br>
+                Stack: HTML, CSS, React, TypeScript</h4>
+            </div>
+          
+        <img src="/assets/images/clock.png" style = "width:400px;">
+            <h4 class = "clock-text">Developed small clock as a way to learn and understand JavaScript </h4>
+
+
+    
+        </div>
+      </div>
+
+
+      <footer>
+        <div class="footer">
+            <p>&lt;/EW&gt;</p>
+
+        </div>
+      </footer>
+
+
+  
+
+
+    <script src= "main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

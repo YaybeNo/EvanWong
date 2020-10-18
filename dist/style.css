@@ -192,7 +192,7 @@ html,body {
   }
 
   .left-colour h2 {
-    font-family: "poppins","Times New Roman";
+    font-family: 'Poppins', sans-serif;
     font-weight: 1000;
     font-size: 65px;
     position : relative;
@@ -245,7 +245,7 @@ html,body {
 
   .aboutme-text {
     position:relative;
-    font-family: "poppins";
+    font-family: 'Poppins', sans-serif;
     font-size:30px;
     left:60px;
     top:100px;
@@ -272,7 +272,7 @@ html,body {
     position:relative;
     left:200px;
     top:45px;
-    font-family: "poppins";
+    font-family: 'Poppins', sans-serif;
     font-weight:900px;
     font-size:40px;
     background-color: turquoise;
@@ -281,7 +281,7 @@ html,body {
   }
 
   .project-section h4{
-    font-family: "poppins";
+    font-family: 'Poppins', sans-serif;
 
     font-size:20px;
     line-height:30px;

@@ -237,6 +237,7 @@ html,body {
   
   .swimmingpng {
     float:left;
+    margin-left: 40px;
   }
 
   .aboutme-wrapper {

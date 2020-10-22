@@ -15,22 +15,20 @@ For style in individual lines is for individual changes-->
   <head>
     <meta charset = "UTF-8">
     <meta name="viewport" content="width=device-width, intitial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="dist/style.css">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet"> 
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/> 
 </head>
 <body>
 <!--nav bar [this will probably have links to github, email, etc.]-->
   <nav data-aos = "fade-down"> 
-    <a href="index.html" class = "Logo">&lt;EW&gt;</a>
+      <a href="https://yaybeno.github.io/EvanWong/" class = "Logo">&lt;EW&gt;</a>
       <ul>
         <li> <a href = "#aboutme-marker">About Me</a> </li>
         <li> <a href="#project-marker">Projects</a> </li>
-        <li> <a href = "dist/Evan W Resume V12.pdf" target = "_blank">Resume</a> </li>
+        <li> <a href = "dist/Evan W Resume V13.pdf" target = "_blank">Resume</a> </li>
       </ul>
   </nav>
 <!--Beginning of article/page-->
@@ -41,20 +39,27 @@ For style in individual lines is for individual changes-->
     </div>
     <div data-aos="fade-right" data-aos-duration = "3000">
       <div class = "right">
-        <span class = "txt-type" data-wait= "2000" data-words = '["Cypher Main","Systems Design Engineer","Pizza Enthusiast"]'>  </span>
+        <span class = "txt-type" data-wait= "2000" data-words = '["Cypher Main","Systems Design Engineer", "Miami Heat Fan"]'>  </span>
         <h4>
           Looking for software development opportunities <br> for Winter 2021
         </h4>
-        <div class = "icons">
-          <!--Will put linkedin and email icon-->
-
+        <div class = "icon-bar">
+        <a href = "https://www.linkedin.com/in/iamevanwong/" target = "_blank">
+          <img src="/assets/images/linkedin.webp">
+        </a>
+        <a href="https://github.com/YaybeNo" target = "_blank">
+          <img src="/assets/images/github.png">
+        </a>
+        <a href="mailto:e92wong@uwaterloo.ca" target = "_blank">
+          <img src="/assets/images/icon-email-512.webp">  
+        </a>
         </div>
       </div>
     </div>
     <div data-aos= "fade-up">
 
         <div class = "aboutme-section">
-            <img src="./assets/images/swimming.png" class = 'swimmingpng'>
+            <img src="assets/images/swimming.png" class = 'swimmingpng'>
             <div id = "aboutme-marker"></div>
 
           <div class = "aboutme-wrapper">  
@@ -66,7 +71,10 @@ For style in individual lines is for individual changes-->
               <br>
               <br>
               <h3>
-                Just recently I've picked up web development and I <br>find it very interesting. Although I'm inexperienced, <br>I'm always looking for opportunities to learn and grow. 
+                I aim to utilize technology to solve real world problems, <br> using design and development. 
+               <br>
+               <br>
+               I'm always open to discuss ideas and opportunities. 
                 </h3>
             </div>
           </div>
@@ -76,32 +84,22 @@ For style in individual lines is for individual changes-->
 <!--I tried to make it work with bootstrap, but an annoying as bug came up, I need to look into this later-->
       <div class = "project-section">
         <div id = "project-marker"></div>
-
-        <h2>What I've Worked On</h2>
-
-        <div class = "card-deck"> 
-            <img class = "card-img-top" src="./assets/images/JungGG.png" style = "width:400px;">
-            <div class="card-body">
-              <h4 class="card-title">Developing Front End Componenets for Jung.GG, a website that utilizes <br> API of 
+          <div class = "project-wrapper">
+            <h2>What I've Worked On</h2>
+            <img class = "JungGGimg" src="assets/images/JungGG.png" style = "width:400px;">
+              <h4>Developing Front End Components for Jung.GG, a website that utilizes <br> API of 
                 League of Legends to create Jungle Paths to assist players in game. 
                 <br> 
                 <br>
                 Stack: HTML, CSS, React, TypeScript</h4>
-            </div>
-          
-        <img src="./assets/images/clock.png" style = "width:400px;">
-            <h4 class = "clock-text">Developed small clock as a way to learn and understand JavaScript </h4>
 
-
-    
+          </div>
         </div>
       </div>
-
 
       <footer>
         <div class="footer">
             <p>&lt;/EW&gt;</p>
-
         </div>
       </footer>
 

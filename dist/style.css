@@ -196,7 +196,7 @@ html,body {
     font-weight: 1000;
     font-size: 65px;
     position : relative;
-    left: 300px;
+    left: 240px;
     top:170px;
     color:white;
   }
@@ -224,6 +224,26 @@ html,body {
     color: grey;
   }
 
+  .icons {
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    top:320px;
+    left: -255px; 
+    margin: 0 auto;
+    width: 180px;
+    height:200px;
+  }
+  .icons img{
+    width: 40px;
+    height:40px;
+    transition: 0.2s ease;
+  }
+
+  .icons img:hover {
+    opacity: 0.5;
+
+  }
 
   .aboutme-section {
     width:100%;
@@ -276,7 +296,6 @@ html,body {
     font-family: 'Poppins', sans-serif;
     font-weight:900px;
     font-size:40px;
-    background-color: turquoise;
     display:inline;
 
   }
